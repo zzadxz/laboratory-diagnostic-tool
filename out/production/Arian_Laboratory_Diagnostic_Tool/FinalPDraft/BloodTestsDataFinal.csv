@@ -1,0 +1,10 @@
+First Name,Last Name,Age,FBS,FBS History,HDL,LDL,A1C,Cortisol Levels,Smoking History,Medications,Symptoms,Hormone deficiency
+Kiarash,Sotoudeh,18,155,No,62,89,4.6,577.3,No,"Caffeine, Betablockers, Propranolol",Syncope / Paleness,Cortisol
+Peter,Benum,30,66,Yes,44,112,5.7,435,No,Caffeine,Fatigue,Glucagon
+Kiana,Std,18,43,No,53,150,9.8,646,No,Caffeine,Paleness,Cortisol
+Alex,Turner,44,33,No,34,56,3.5,768,Yes,Caffeine,"Paleness, Confusion",Hyperinsulinism
+Micheal,Scott,56,444,No,76,76,7.6,536,No,Nebivolol,"Syncope / Paleness, Paleness, Confusion",Somatostatinoma
+Jim,Halpert,30,222,Yes,45,45,8.7,634,Yes,Caffeine,Syncope / Paleness,Cortisol
+Dwight,Schrute,43,111,No,55,58,5.6,645,No,Nadolol,Syncope / Paleness,Glucagonoma
+Mike,Ross,28,10,No,56,90,6.7,243,Yes,Alcohol,Syncope / Paleness,Cortisol
+Adam,Chen,5,155,No,80,65,4.7,343,No,Labetalol,Syncope / Paleness,Cortisol
