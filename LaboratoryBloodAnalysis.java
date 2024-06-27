@@ -22,6 +22,8 @@ import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.net.URI;
+import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
 
 
 public class LaboratoryBloodAnalysis extends JFrame implements ActionListener {
@@ -102,7 +104,9 @@ public class LaboratoryBloodAnalysis extends JFrame implements ActionListener {
                     String body = results;
 
                     try {
-                        URI mailToURI = new URI("mailto", mailTo + "?subject=" + subject + "&body=" + body, null);
+                        String encodedSubject = URLEncoder.encode(subject, StandardCharsets.UTF_8.toString());
+                        String encodedBody = URLEncoder.encode(body, StandardCharsets.UTF_8.toString());
+                        URI mailToURI = new URI("mailto:" + mailTo + "?subject=" + encodedSubject + "&body=" + encodedBody);
                         Desktop.getDesktop().mail(mailToURI);
                     } catch (IOException ex) {
                         JOptionPane.showMessageDialog(null, "An error occurred while trying to open the email client", "Error", JOptionPane.ERROR_MESSAGE);
